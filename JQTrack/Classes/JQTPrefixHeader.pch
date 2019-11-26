@@ -1,0 +1,17 @@
+//
+//  JQTPrefixHeader.pch
+//  JQTrack
+//
+//  Created by jqoo on 2019/1/8.
+//
+
+#ifndef JQTPrefixHeader_pch
+#define JQTPrefixHeader_pch
+
+#import "JQTUtil.h"
+#import "NSObject+JQTrack.h"
+
+#define JQTDebugBlock(blk) do blk while(0);
+#define JQTDebugBlockIf(condition, blk) if(condition){ do blk while(0); }
+
+#endif /* JQTPrefixHeader_pch */
